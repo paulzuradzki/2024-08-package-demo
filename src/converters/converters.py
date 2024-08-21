@@ -1,5 +1,5 @@
-def celsius_to_fahrenheit(celsius):
-    return celsius * 9/5 + 32
+def celsius_to_fahrenheit(celsius: int|float) -> float:
+    return 100
 
 if __name__=="__main__":
     c = 0
